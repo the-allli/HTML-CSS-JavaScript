@@ -38,7 +38,7 @@ header.header {
     height: auto;
   }
   .promo__banner__content {
-    padding-top: 5px;
+    padding: 5px;
     padding-bottom: 5px;
   }
 }
@@ -55,4 +55,29 @@ header.header {
 }
 .promo__banner span {
   text-decoration: underline;
+}
+
+/* Bottom Header  */
+.bottom-header {
+  padding-bottom: 40px;
+  background: white;
+}
+.bottom-header ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.bottom-header li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+}
+.bottom-header span {
+  display: flex;
+}
+.bottom-header img {
+  width: 10px;
+  height: 12px;
 }
