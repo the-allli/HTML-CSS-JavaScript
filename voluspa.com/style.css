@@ -360,12 +360,19 @@ nav {
   width: 320px;
   height: 190px;
 }
-
+main {
+  /* position: relative; */
+}
 /* Mobile Menu */
 .no-scroll {
   overflow: hidden;
 }
 .mobile-menu {
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white; */
   border-top: 1px solid black;
   height: 100vh;
   z-index: 999;
@@ -393,6 +400,7 @@ nav {
 /* Bottom Nav */
 .bottom-nav {
   display: none;
+  background-color: #f6f6f2;
 }
 @media (max-width: 1100px) {
   .bottom-nav {
