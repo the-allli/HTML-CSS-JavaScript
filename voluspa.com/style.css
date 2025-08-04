@@ -18,7 +18,7 @@ body {
 header.header {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 1;
 }
 
 /* Top Header */
@@ -360,22 +360,15 @@ nav {
   width: 320px;
   height: 190px;
 }
-main {
-  /* position: relative; */
-}
+
 /* Mobile Menu */
 .no-scroll {
   overflow: hidden;
 }
-.mobile-menu {
-  /* position: absolute; */
-  /* top: 0;
-  left: 0;
-  width: 100%;
-  background-color: white; */
+#mobile-menu {
   border-top: 1px solid black;
-  height: 100vh;
-  z-index: 999;
+  background-color: white;
+  height: calc(100vh - 122px);
 }
 .mobile-menu-row {
   padding: 20px 30px;
@@ -558,7 +551,6 @@ main {
     display: block;
     position: absolute;
     top: 500px;
-    z-index: 8;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 20px;
@@ -641,7 +633,6 @@ main {
   top: 50%;
   left: 10%;
   transform: translateY(-50%);
-  z-index: 7;
 }
 .nude-content {
   text-align: center;
@@ -795,7 +786,6 @@ main {
   top: 50%;
   right: 10%;
   transform: translateY(-50%);
-  z-index: 6;
 }
 .crown-content {
   text-align: center;
@@ -932,7 +922,6 @@ main {
     display: block;
     position: absolute;
     top: 400px;
-    z-index: 5;
     left: 50%;
     transform: translateX(-50%);
     padding: 17px 25px;

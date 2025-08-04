@@ -4,7 +4,6 @@ const btnParfum = document.getElementById("btn-parfum");
 const mobileMenu = document.getElementById("mobile-menu");
 const homeSections = document.querySelectorAll(".drop-down-ul-col.home");
 const parfumSections = document.querySelectorAll(".drop-down-ul-col.parfum");
-
 const dropdownMenu = document.querySelector(".drop-down-menu");
 
 btnHome.addEventListener("click", () => {
@@ -35,6 +34,7 @@ const mediaQuery = window.matchMedia("(min-width: 1100px)");
 function handleMediaQuery(e) {
   if (e.matches) {
     mobileMenu.style.display = "none";
+    mobileMenu.style.overflow = "auto";
     body.style.overflow = "auto";
   } else {
     mobileMenu.style.display = "";
